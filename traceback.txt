@@ -1,0 +1,36 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 388, in script call
+    call fifteen
+  File "game/script.rpy", line 1641, in script
+    $ chosen_img_width, chosen_img_height = renpy.image_size(chosen_img)
+  File "game/script.rpy", line 1641, in <module>
+    $ chosen_img_width, chosen_img_height = renpy.image_size(chosen_img)
+IOError: Couldn't find file 'cable puzzle.jpg'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 388, in script call
+    call fifteen
+  File "game/script.rpy", line 1641, in script
+    $ chosen_img_width, chosen_img_height = renpy.image_size(chosen_img)
+  File "C:\Users\USER\Downloads\renpy-7.4.1-sdk/renpy/ast.py", line 922, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\USER\Downloads\renpy-7.4.1-sdk/renpy/python.py", line 2218, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 1641, in <module>
+    $ chosen_img_width, chosen_img_height = renpy.image_size(chosen_img)
+  File "C:\Users\USER\Downloads\renpy-7.4.1-sdk/renpy/exports.py", line 2338, in image_size
+    surf = im.load()
+  File "C:\Users\USER\Downloads\renpy-7.4.1-sdk/renpy/display/im.py", line 651, in load
+    filelike = renpy.loader.load(self.filename)
+  File "C:\Users\USER\Downloads\renpy-7.4.1-sdk/renpy/loader.py", line 798, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'cable puzzle.jpg'.
+
+Windows-10-10.0.19041
+Ren'Py 7.4.1.1270
+Back to the Astronomy 1.0
+Wed Feb 10 18:25:44 2021
