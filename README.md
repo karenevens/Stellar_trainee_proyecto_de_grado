@@ -19,7 +19,10 @@ Autora:
 Karen Tatiana Evens Gaviria
 
 Facultad de Arquitectura y Diseño 
+
 Departamento de Diseño 
+
 Bogotá
+
 2020
 
