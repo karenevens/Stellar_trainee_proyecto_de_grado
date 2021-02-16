@@ -11,4 +11,15 @@ Stellar trainees, sigue las aventuras de Arturo, Celeste y Estela en las que  vi
 
 
 
+Trabajo estrictamente académico 
+Universidad de los Andes. 2020-2
+Estudio 8: Proyecto de grado
+
+Autora:
+Karen Tatiana Evens Gaviria
+
+Facultad de Arquitectura y Diseño 
+Departamento de Diseño 
+Bogotá
+2020
 
